@@ -1,0 +1,20 @@
+.dog_image{
+max-width: 300px;
+display: block;
+}
+
+.home{
+max-width: 32px;
+}
+.back_link{
+display:none ;
+opacity: 1;
+}
+
+.home:hover + .back_link{
+display: inline;
+cursor: pointer;
+}
+.home_image{
+    width: 32px;
+}
